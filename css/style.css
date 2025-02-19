@@ -24,6 +24,7 @@ main {
   background-color: #4b222f;
   color: #ffff;
   padding: 20px;
+  height: 700px;
 }
 
 form {
@@ -36,6 +37,8 @@ form {
 
 footer {
   text-align: center;
+  padding: 10px;
+  font-size: 1.03em;
 }
 
 .testo-barrato li {
@@ -72,4 +75,8 @@ button {
 
 .inline {
   display: inline-block;
+}
+
+h1 {
+  text-align: center;
 }
