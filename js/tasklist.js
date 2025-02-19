@@ -7,7 +7,7 @@ formTask.addEventListener("submit", (e) => {
   const search = { TheTask: addNewTask.value }
   console.log("valore", search)
 
-  const cardWithTask = document.createElement("lul")
+  const cardWithTask = document.createElement("ul")
   cardWithTask.innerHTML = `
   <li onclick="lineThrough(event)">${search.TheTask}<button onclick="deleteLi(event)">Elimina task</button></li>
   `
