@@ -9,8 +9,7 @@ formTask.addEventListener("submit", (e) => {
 
   const cardWithTask = document.createElement("lul")
   cardWithTask.innerHTML = `
-  <li onclick="lineThrough(event)">${search.TheTask}</li>
-  <button onclick="deleteLi(event)">Elimina task</button>
+  <li onclick="lineThrough(event)">${search.TheTask}<button onclick="deleteLi(event)">Elimina task</button></li>
   `
 
   const listTask = document.getElementById("lista")
